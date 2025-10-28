@@ -1,6 +1,6 @@
 public class Student {
-    private String name;
-    private int Id;
+   protected String name;
+    protected int Id;
     protected int age;
 
     protected static int nextId = 1;
@@ -20,9 +20,7 @@ this.Id=nextId++;
         return name;
     }
 
-    public int getId() {
-        return Id;
-    }
+
 
     public int getAge() {
         return age;
