@@ -20,9 +20,7 @@ this.Id=nextId++;
         return name;
     }
 
-    public int getId() {
-        return Id;
-    }
+    
 
     public int getAge() {
         return age;
