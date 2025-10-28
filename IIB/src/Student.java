@@ -31,4 +31,10 @@ this.Id=nextId++;
     public static int getNextId() {
         return nextId;
     }
+    public void displayStudentInfo() {
+        System.out.println("Roll No: " + Id +
+                ", Name: " + name +
+                ", Age: " + age +
+                ", Grade: " );
+    }
 }
