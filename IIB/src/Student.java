@@ -10,9 +10,9 @@ this.Id=nextId++;
         System.out.println("Student Id :" + Id + " assigned");
     }
 
-    public Student(String name, int id, int age) {
+    public Student(String name,  int age) {
         this.name = name;
-        Id = id;
+
         this.age = age;
     }
 
@@ -37,4 +37,5 @@ this.Id=nextId++;
                 ", Age: " + age +
                 ", Grade: " );
     }
+
 }
