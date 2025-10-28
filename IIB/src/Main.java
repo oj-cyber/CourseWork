@@ -4,5 +4,9 @@ public class Main {
         Student student2 = new Student("Mujuzi Joram",25);
         Student student3 = new Student("Matovu John",23);
 
+        student1.displayStudentInfo();
+        student2.displayStudentInfo();
+        student3.displayStudentInfo();
+        
     }
 }
