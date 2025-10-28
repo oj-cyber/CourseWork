@@ -4,9 +4,11 @@ public class Main {
         Student student2 = new Student("Mujuzi Joram",25);
         Student student3 = new Student("Matovu John",23);
 
+        System.out.println("=====Student 1====");
         student1.displayStudentInfo();
+        System.out.println("=====Student 2====");
         student2.displayStudentInfo();
+        System.out.println("=====Student 3====");
         student3.displayStudentInfo();
-        
     }
 }
